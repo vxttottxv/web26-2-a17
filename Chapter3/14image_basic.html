@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>14image_basic</title>
+</head>
+<body>
+    <img src="Penguins.jpg" alt = "펭귄" width="300"><br>
+    <img src="Nothing.jpg" alt = "이미지 없음" width="300"><br>
+    
+    <img src="https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/04/133090699.1.jpg" alt="cat" width="300">
+
+    <h2>음악 삽입하기</h2>
+    <audio src="Kalimba.mp3" controls="controls"></audio>
+
+    <h2>웹 브라우저 제약이 없도록 음악 삽입</h2>
+    <audio controls="controls">
+        <source src="Kalimba.mp3" type="audio/mp3">
+        <source src="Kalimba.ogg" type="audio/ogg">
+    </audio>
+
+    <h2>동영상 삽입</h2>
+    <video controls="controls" width="200">
+        <source src="Wildlife.mp4" type="video/mp4">
+        <source src="Wildlife.webm" type="video/webm">
+    </video>
+
+    <h2>18동영상 불러오는 동안 다른 이미지 보여주기</h2>
+    <video controls="controls" poster="20939_11059_1724.jpg" width="200">
+        <source src="Wildlife.mp4" type="video/mp4">
+        <source src="Wildlife.webm" type="video/webm">
+    </video>
+</body>
+</html>
