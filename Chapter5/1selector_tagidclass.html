@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 selecotr Basic</title>
+    <style>
+        /* {color:rosybrown;}
+        h1{color:red;}
+        p{color:blue;} */ 
+        #header{
+            width: 800px; margin: 0 auto;
+            background: red;
+        }
+        #wrap{
+            width: 800px; margin: 0 auto;
+            overflow: hidden;
+        }
+        #aside{
+            width: 200px; float: left;
+            background: blue;
+        }
+        #content{
+            width: 600px; float: left;
+            background: green;
+        }
+        #rint{ color:aqua}
+
+        .select{ color: red;}
+        .header{background-color:blue;}
+        .item{color:red;}
+
+        .li .select{color: violet}
+    </style>
+
+</head>
+<body>
+    <h2>1.전체 선택자</h2>
+    <h2>2.태그 선택자</h2>
+    <h2>3.아이디 선택자</h2>
+    <h2>4.id 속성을 중복 사용하면 해당 id 속성을 표시한 모든 것이 적용이 된다.</h2>
+    <h2>5.클래스 선택자</h2>
+    <hr>
+
+    <h1 class="item header">단발머리를 하고 그댈 만나러 가~~</h1>
+ 
+
+    <ul>
+        <li class="select">사과</li>
+        <li>바나나</li>
+        <li class="select">오렌즈</li>
+        <li>감</li>
+    </ul>
+
+    <h1>제목글자</h1>
+    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+    <p>Nunc nisl turpis, aliquet et gravida non, facilisis a sem.</p>
+
+
+    <h1></h1>
+    <div id="header">
+        <h1>#header 태그</h1>
+        </div> 
+        <div>id="wrap"></div>
+            <div id="aside">
+                <h1>#aside 태그</h1>
+            </div>
+            <div id="content">
+                <h1>#content 태그</h1>
+            </div>
+        
+</body>
+</html>
